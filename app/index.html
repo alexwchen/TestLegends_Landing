@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!-->
+<html ng-app="startupBootstrap" lang="en"> <!--<![endif]-->
+<head>
+    <title>TestLegends</title>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,400italic,500,500italic,700,700italic,900,900italic,300italic,300' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,700,300,100' rel='stylesheet' type='text/css'>
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="js/vendor_template/plugins/bootstrap/css/bootstrap.min.css">
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" href="js/vendor_template/plugins/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="js/vendor_template/plugins/flexslider/flexslider.css">
+    <!-- Theme CSS -->
+    <link id="theme-style" rel="stylesheet" href="css/styles.css">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body ng-app="startupBootstrap" class="home-page">
+
+    <landing-nav></landing-nav>
+
+    <div class="bg-slider-wrapper">
+        <!--  controls the top section background, it will keep changing-->
+        <div class="flexslider bg-slider">
+            <ul class="slides">
+                <li class="slide slide-1"></li>
+                <li class="slide slide-2"></li>
+                <li class="slide slide-3"></li>
+            </ul>
+        </div>
+    </div>
+
+
+    <landing-top></landing-top>
+
+    <div class="sections-wrapper">
+      <landing-why></landing-why>
+      <landing-testimonials></landing-testimonials>
+      <landing-calltoaction></landing-calltoaction>
+    </div><!--//section-wrapper-->
+
+    <landing-footer></landing-footer>
+    <landing-video></landing-video>
+
+    <!-- App Related -->
+    <script src="/bower_components/angular/angular.js"></script>
+    <script src="/bower_components/angular-route/angular-route.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/directives/landing_dir.js"></script>
+
+
+    <!-- Javascript -->
+    <script type="text/javascript" src="js/vendor_template/plugins/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="js/vendor_template/plugins/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="js/vendor_template/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/vendor_template/plugins/bootstrap-hover-dropdown.min.js"></script>
+    <script type="text/javascript" src="js/vendor_template/plugins/back-to-top.js"></script>
+    <script type="text/javascript" src="js/vendor_template/plugins/jquery-placeholder/jquery.placeholder.js"></script>
+    <script type="text/javascript" src="js/vendor_template/plugins/FitVids/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="js/vendor_template/plugins/flexslider/jquery.flexslider-min.js"></script>
+    <script type="text/javascript" src="js/vendor_template/main.js"></script>
+
+
+</body>
+</html>
