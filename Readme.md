@@ -21,4 +21,4 @@ It will install everything you need and start the server
 3. Best way to replace image in stock photo
 ![alt text](./psd-source/readme/double_click_on_the_image.png "LOGO")
 ![alt text](./psd-source/readme/click_ok.png "LOGO")
-![alt text](./psd-source/readme/paste_the_image_in_this smart_obj.png "LOGO")
+![alt text](./psd-source/readme/paste_the_image_in_this_smart_obj.png "LOGO")
